@@ -1,0 +1,176 @@
+body {
+	background: #071c3a;
+}
+
+.note {
+	color: red;
+  }
+
+
+h1 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+} 
+
+p1 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+  position: absolute;
+  left: 420px;
+  top: 160px;
+  font-size: 25px;
+}
+
+p2 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+  position: absolute;
+  left: 890px;
+  top: 160px;
+  font-size: 25px;
+}  
+
+p3 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+  position: absolute;
+  left: 1320px;
+  top: 160px;
+  font-size: 25px;
+}  
+
+p4 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+  position: absolute;
+  left: 427px;
+  top: 480px;
+  font-size: 20px;
+}  
+
+p5 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+  position: absolute;
+  left: 400px;
+  top: 550px;
+  font-size: 15px;
+}  
+
+p6 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+  position: absolute;
+  left: 390px;
+  top: 590px;
+  font-size: 15px;
+} 
+
+p7 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+  position: absolute;
+  left: 900px;
+  top: 480px;
+  font-size: 20px;
+} 
+
+p8 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+  position: absolute;
+  left: 875px;
+  top: 550px;
+  font-size: 15px;
+} 
+
+p9 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+  position: absolute;
+  left: 865px;
+  top: 590px;
+  font-size: 15px;
+} 
+
+p10 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+  position: absolute;
+  left: 1380px;
+  top: 480px;
+  font-size: 20px;
+} 
+
+p11 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+  position: absolute;
+  left: 1315px;
+  top: 550px;
+  font-size: 15px;
+} 
+
+p12 {color: rgb(255, 255, 255);              
+  font-family: verdana;
+  position: absolute;
+  left: 1345px;
+  top: 590px;
+  font-size: 15px;
+} 
+
+.container {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    overflow: hidden;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  
+  .gauge-a {
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(255,255,255,.2);
+    width: 400px;
+    height: 200px;
+    top: 0%;
+    border-radius: 250px 250px 0px 0px;
+  }
+  
+  .gauge-b {
+    z-index: 3;
+    position: absolute;
+    background-color: #222;
+    width: 250px;
+    height: 125px;
+    top: 75px;
+    margin-left: 75px;
+    margin-right: auto;
+    border-radius: 250px 250px 0px 0px;
+  }
+  
+  .gauge-c {
+    z-index: 2;
+    position: absolute;
+    background-color: #970000;
+    width: 400px;
+    height: 200px;
+    top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 200px 200px;
+    transform-origin: center top;
+    transition: all 1.3s ease-in-out;
+  }
+  
+  .container:hover .gauge-c {  transform:rotate(.5turn);
+  }
+  
+  .container:hover .gauge-data { color: rgba(255,255,255,1); }
+  
+  .gauge-data {
+    z-index: 4;
+    color: rgba(255,255,255,.2);
+    font-size: 1.5em;
+    line-height: 25px;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1s ease-out;
+  }
+
+  

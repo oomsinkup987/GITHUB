@@ -1,0 +1,14 @@
+body {
+	background: #071c3a;
+}
+
+h1 {color: rgb(255, 255, 255);              
+	font-family: verdana;
+}
+
+p {color: rgb(255, 255, 255);              
+	font-family: verdana;
+}
+.note {
+	color: red;
+  }

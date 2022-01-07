@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>HOME : SMARTHOME FOR YOURLIFE</title>
+    <link href="index.css"rel="stylesheet">
+  </head>
+
+    <!--Button Funcion-->
+  <body>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none;" id="leftMenu">
+        <button onclick="closeLeftMenu()" class="w3-bar-item w3-black w3-button w3-large">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-home">HOME</i></a>
+        <a href="#" class="w3-bar-item w3-button"onclick="GRAPH()"><i class="fa fa-line-chart">GRAPH</i></a>
+        <a href="#" class="w3-bar-item w3-button"onclick="Logout()"><i class="fa fa-close">Logout</i></a>
+      </div>
+
+    <!--Button sidbar-->
+      <div class="w3-black">
+          <button class="w3-button w3-black w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+          <div class="w3-container">
+          <h1>• HOME<span class="note">PAGE</span></h1>
+        </div>
+      </div>
+          
+      <script>
+       function GRAPH(){
+        localStorage.removeItem("jwt")
+        location.replace("./gauge.html")
+      }
+      
+      function Logout(){
+        localStorage.removeItem("jwt")
+        location.replace("./login.html")
+      }
+        
+      function openLeftMenu() {
+        document.getElementById("leftMenu").style.display = "block";
+      }
+      
+      function closeLeftMenu() {
+        document.getElementById("leftMenu").style.display = "none";
+      }
+      </script>
+
+    <!-- TextBox-->
+     <div class="container text-center">
+     <h1 class="p-10">━ • <span class="note">NOW</span> LET ME <span class="note">INTRODUCE MY WEBSITE</span> • ━</h1>
+    </div>
+        <div class="container text-center">
+          <div class="videoWrapper">  
+            <iframe width="704" height="436" src="https://www.youtube.com/embed/D3f_vBLzyqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div style="font-family: sans-serif; margin-top: 20px;">
+        </div>
+        <div class="container text-center"> 
+          <h1> ━ • <span class="note">SMARTHOME</span> FOR <span class="note">YOURLIFE</span> • ━ </h1>
+          <p style="font-size:140%;">• โครงงานนี้ คืออะไร? โครงงานนี้จัดทำเพื่อตอบสนองความต้องการของผู้คนในการใช้ชีวิตประจำวันภายในบ้านโดยโครงการนี้จะมุ่งเน้นไปที่ฟังชันของ แสง อากาศเเละความชื้นเป็นหลักในการใช้งานและเพื่อเป็นเเนวทางในการศึกษาและพัฒนาเว็บที่เกี่ยวกับการทำ <span class="note">SMARTHOME</span> เบื้องต้น ไม่ว่าจะอาศัยคนเดียวหรือเป็นครอบครัวโครงงานนี้จะสามารถ
+            ช่วยให้การเป็นอยู่ภายในบ้านดียิ่งขึ้น เเละเพิ่มความสะดวกสบายมากยิ่งขึ้น โดยใช้งานผ่านทางเว็บไซด์ของเราเเละสามารถที่จะใช้งานในช่องทางอื่นๆอีกมากมาย ///</p>
+          <img src="47a77e0e073e56fd5007449c241edcda_1920x1081.3976705491.jpg"class="img-rounded" alt="cinque Terre" width="704" height="436">
+          <h1> ━ • <span class="note">OBJECTIVE</span> • ━</h1>
+          <p style="font-size:140%;">• โครงงาน <span class="note">SMARTHOME</span> FOR <span class="note">YOURLIFE</span> มีแรงบันดาลใจจากการใช้ชีวิตประจำวันที่อยู่เเต่ภายในบ้านในช่วง <span class="note">covid-19</span> ระบาดอย่างหนักเเละยังไม่มีท่าทีที่จะลดลง
+            ในสถาณการณ์เเบบนี้ ผู้คนส่วนใหญ่ล้วนต้องกักตัวอยู่ภายในบ้าน โดยส่วนใหญ่เเล้วผู้คนที่กักตัวภายในบ้านก็มักจะนั่งทำงานที่บ้านเป็นประจำ จนอาจจะหลงลืมตัวว่าภายนอกอากาศเป็นยังไง? แสงในห้องพอไหม?
+             โครงงานนี้เลยถูกจัดทำขึ้นมาเพื่อตอบสนองต่อสถาณการณ์ในปัจจุบันเพื่อช่วยให้ชีวิตสะดวกสบายมากยิ่งขึ้น ///</p>
+          <img src="1b-Smart-Home-Utilities-Plumlife.com-Plum-870x492.png"class="img-rounded" alt="cinque Terre" width="704" height="436">
+          <h1> ━ • <span class="note">CONCEPT</span> • ━</h1>
+          <h1 style="font-size:140%;">• <span class="note">CONCEPT</span> ของโครงงานนี้คือการวัดค่าแสงค่าความชื้นอุณหภูมิภายในบ้านเพื่ออำนวยความสะดวกในการใช้ชีวิตของคนยุคนี้เพราะชีวิตดำเนินไปไว 
+            จนอาจจะหลงลืมเรื่องเล็กๆที่เราอาจมองข้ามต่างๆ เช่น การเก็บผ้า การปิดไฟ หรืองเเม้เราอาจจะสงสัยว่าทำไมอากาศภายในบ้านไม่ร้อน ก็หนาวจัดโครงงานนี้เลยจัดทำเพื่อตอบสนองกับการใช้ชีวิต ///</h1>
+          <img src="ESP8266-Pinout-GPIO-Pin-Reference-Guide.jpg"class="img-rounded" alt="cinque Terre" width="704" height="436">
+          <h1>━ • <span class="note">ESP8266</span> • ━</h1>
+          <h1 style="font-size:140%;">• <span class="note">ESP8266</span> คือ โมดูล wifi ภายในมีเฟิร์มแวร์ทํางานในลักษณะ Serial-to-WiFi ที่ช่วยให้อุปกรณ์อื่นๆ เช่น MCU สามารถต่อเข้ากับ internet 
+            ได้โดยใช้ port serial(ขา Tx, ขา Rx) และใช้คําสั่ง AT ในการควบคุมการทํางาน ต่อมาผู้พัฒนาได้พัฒนา ปัจจุบัน IoT(internet of things) กำลังมาแรง <span class="note">ESP8266</span> 
+            จึงเป็นที่นิยมเป็นอย่างมาก เพราะเป็นอุปกรณ์ที่มีขนาดเล็ก ราคาถูก ใช้งานง่ายเหมาะสำหรับนำมาพัฒนา IoT ///</h1>
+          
+          <!-- Import module-->
+          <script type = "module">// Import the functions you need from the SDKs you need
+            import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js'
+            import {getDatabase,ref, child, get } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+            
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+                apiKey: "AIzaSyAZotvDxUjfw_RJQWymdIqfsjdMAW6u8ok",
+                authDomain: "arduino-1-89893.firebaseapp.com",
+                databaseURL: "https://arduino-1-89893-default-rtdb.asia-southeast1.firebasedatabase.app/",
+                projectId: "arduino-1-89893",
+                storageBucket: "arduino-1-89893.appspot.com",
+                messagingSenderId: "962826463802",
+                appId: "1:962826463802:web:3d8c76e72d19955ddee303",
+                measurementId: "G-SB48NZD89Q"
+            };
+            
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const database = getDatabase(app);
+            const dbRef = ref(getDatabase());
+get(child(dbRef, `sensor/Last_update`)).then((snapshot) => {
+  if (snapshot.exists()) {
+    console.log(snapshot.val());
+  } else {
+    console.log("No data available");
+  }
+}).catch((error) => {
+  console.error(error);
+});
+
+            </script>
+
+   
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
